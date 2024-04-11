@@ -1,0 +1,170 @@
+20:59:32 **** Incremental Build of configuration Debug for project Basic_RTOS_Application ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/led_effect.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/led_effect.d" -MT"Core/Src/led_effect.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/led_effect.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/rtc.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_timebase_tim.d" -MT"Core/Src/stm32f4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../Core/Src/task_handler.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/Config" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/OS" -I"C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/task_handler.d" -MT"Core/Src/task_handler.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/task_handler.o"
+../Core/Src/led_effect.c: In function 'blink_led_in_pattern3':
+../Core/Src/task_handler.c: In function 'rtc_handler':
+../Core/Src/led_effect.c:80:40: warning: operation on 'i' may be undefined [-Wsequence-point]
+   80 |  turnon_one_led(gpio_port[i],gpio_pin[i++]);
+      |                                       ~^~
+../Core/Src/task_handler.c:163:4: warning: "/*" within comment [-Wcomment]
+  163 |    /*TODO : Print the menu and show current date and time information */
+      |     
+../Core/Src/led_effect.c: In function 'blink_led_in_pattern4':
+../Core/Src/led_effect.c:91:40: warning: operation on 'i' may be undefined [-Wsequence-point]
+   91 |  turnon_one_led(gpio_port[i],gpio_pin[i--]);
+      |                                       ~^~
+../Core/Src/rtc.c: In function 'show_time_date_itm':
+../Core/Src/rtc.c:12:19: error: 'hrtc' undeclared (first use in this function)
+   12 |  HAL_RTC_GetTime(&hrtc, &rtc_time, RTC_FORMAT_BIN);
+      |                   ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/rtc.c:12:19: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rtc.c:20:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   20 |  printf("%02d:%02d:%02d [%s]",rtc_time.Hours, rtc_time.Minutes, rtc_time.Seconds,format);
+      |  ^~~~~~
+../Core/Src/rtc.c:20:2: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/rtc.c:2:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:141:32: warning: passing argument 2 of 'HAL_UART_Receive_IT' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  141 |   HAL_UART_Receive_IT(&huart2, &user_data, 1);
+      |                                ^~~~~~~~~~
+In file included from ../Core/Inc/main.h:37,
+                 from ../Core/Src/task_handler.c:7:
+../Core/Src/task_handler.c:167:26: error: 'msg_menu' undeclared (first use in this function)
+  167 |      xQueueSend(q_print,&msg_menu,portMAX_DELAY);
+      |                          ^~~~~~~~
+C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include/queue.h:485:38: note: in definition of macro 'xQueueSend'
+  485 |     xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+      |                                      ^~~~~~~~~~~~~
+../Core/Src/task_handler.c:167:26: note: each undeclared identifier is reported only once for each function it appears in
+  167 |      xQueueSend(q_print,&msg_menu,portMAX_DELAY);
+      |                          ^~~~~~~~
+C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include/queue.h:485:38: note: in definition of macro 'xQueueSend'
+  485 |     xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+      |                                      ^~~~~~~~~~~~~
+../Core/Src/task_handler.c:173:12: error: 'command_t' has no member named 'len'
+  173 |      if(cmd->len == 1)
+      |            ^~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:725:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  725 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                  ~~~~~~~~~^~~~~
+../Core/Src/rtc.c: In function 'show_time_date':
+../Core/Src/rtc.c:40:19: error: 'hrtc' undeclared (first use in this function)
+   40 |  HAL_RTC_GetTime(&hrtc, &rtc_time, RTC_FORMAT_BIN);
+      |                   ^~~~
+../Core/Src/task_handler.c:175:7: error: 'option' undeclared (first use in this function)
+  175 |       option = cmd->payload[0] - 48;
+      |       ^~~~~~
+../Core/Src/task_handler.c:175:19: error: 'command_t' has no member named 'payload'
+  175 |       option = cmd->payload[0] - 48;
+      |                   ^~
+../Core/Src/rtc.c:48:2: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   48 |  sprintf((char*)showtime,"%s:\t%02d:%02d:%02d [%s]","\nCurrent Time&Date",rtc_time.Hours, rtc_time.Minutes, rtc_time.Seconds,format);
+      |  ^~~~~~~
+../Core/Src/rtc.c:48:2: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/rtc.c:48:2: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:348:52: warning: passing argument 3 of 'HAL_UART_Receive_IT' makes integer from pointer without a cast [-Wint-conversion]
+  348 |  HAL_UART_Receive_IT(&huart2,(uint8_t *)&user_data,NULL);
+      |                                                    ^~~~
+      |                                                    |
+      |                                                    void *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:725:91: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'void *'
+  725 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                                  ~~~~~~~~~^~~~
+../Core/Src/rtc.c: In function 'rtc_configure_time':
+../Core/Src/rtc.c:64:19: error: 'hrtc' undeclared (first use in this function)
+   64 |  HAL_RTC_SetTime(&hrtc,time,RTC_FORMAT_BIN);
+      |                   ^~~~
+../Core/Src/rtc.c: In function 'rtc_configure_date':
+../Core/Src/rtc.c:70:19: error: 'hrtc' undeclared (first use in this function)
+   70 |  HAL_RTC_SetDate(&hrtc,date,RTC_FORMAT_BIN);
+      |                   ^~~~
+In file included from ../Core/Inc/main.h:36,
+                 from ../Core/Src/task_handler.c:7:
+../Core/Src/task_handler.c:180:21: error: 'handle_led_task' undeclared (first use in this function); did you mean 'handle_led_timer'?
+  180 |         xTaskNotify(handle_led_task,0,eNoAction);
+      |                     ^~~~~~~~~~~~~~~
+C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include/task.h:2074:27: note: in definition of macro 'xTaskNotify'
+ 2074 |     xTaskGenericNotify( ( xTaskToNotify ), ( tskDEFAULT_INDEX_TO_NOTIFY ), ( ulValue ), ( eAction ), NULL )
+      |                           ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/rtc.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/task_handler.c:184:21: error: 'handle_rtc_task' undeclared (first use in this function)
+  184 |         xTaskNotify(handle_rtc_task,0,eNoAction);
+      |                     ^~~~~~~~~~~~~~~
+C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include/task.h:2074:27: note: in definition of macro 'xTaskNotify'
+ 2074 |     xTaskGenericNotify( ( xTaskToNotify ), ( tskDEFAULT_INDEX_TO_NOTIFY ), ( ulValue ), ( eAction ), NULL )
+      |                           ^~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:37,
+                 from ../Core/Src/task_handler.c:7:
+../Core/Src/task_handler.c:189:29: error: 'msg_inv' undeclared (first use in this function)
+  189 |         xQueueSend(q_print,&msg_inv,portMAX_DELAY);
+      |                             ^~~~~~~
+C:/Embedded Learnings/RTOS/Workspace/common/ThirdParty/FreeRTOS/include/queue.h:485:38: note: in definition of macro 'xQueueSend'
+  485 |     xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+      |                                      ^~~~~~~~~~~~~
+../Core/Src/task_handler.c:263:1: error: expected declaration or statement at end of input
+  263 | }
+      | ^
+../Core/Src/task_handler.c:153:15: warning: unused variable 'msg_rtc_report' [-Wunused-variable]
+  153 |   const char *msg_rtc_report = "Enable time&date reporting(y/n)?: ";
+      |               ^~~~~~~~~~~~~~
+../Core/Src/task_handler.c:152:15: warning: unused variable 'msg_conf' [-Wunused-variable]
+  152 |   const char *msg_conf = "Configuration successful\n";
+      |               ^~~~~~~~
+../Core/Src/task_handler.c:150:15: warning: unused variable 'msg_rtc_yr' [-Wunused-variable]
+  150 |   const char *msg_rtc_yr  = "Enter year(0-99):";
+      |               ^~~~~~~~~~
+../Core/Src/task_handler.c:149:15: warning: unused variable 'msg_rtc_dow' [-Wunused-variable]
+  149 |   const char *msg_rtc_dow  = "Enter day(1-7 sun:1):";
+      |               ^~~~~~~~~~~
+../Core/Src/task_handler.c:148:15: warning: unused variable 'msg_rtc_mo' [-Wunused-variable]
+  148 |   const char *msg_rtc_mo  ="Enter month(1-12):";
+      |               ^~~~~~~~~~
+../Core/Src/task_handler.c:147:15: warning: unused variable 'msg_rtc_dd' [-Wunused-variable]
+  147 |   const char *msg_rtc_dd  = "Enter date(1-31):";
+      |               ^~~~~~~~~~
+../Core/Src/task_handler.c:145:15: warning: unused variable 'msg_rtc_ss' [-Wunused-variable]
+  145 |   const char *msg_rtc_ss = "Enter seconds(0-59):";
+      |               ^~~~~~~~~~
+../Core/Src/task_handler.c:144:15: warning: unused variable 'msg_rtc_mm' [-Wunused-variable]
+  144 |   const char *msg_rtc_mm = "Enter minutes(0-59):";
+      |               ^~~~~~~~~~
+../Core/Src/task_handler.c:143:15: warning: unused variable 'msg_rtc_hh' [-Wunused-variable]
+  143 |   const char *msg_rtc_hh = "Enter hour(1-12):";
+      |               ^~~~~~~~~~
+../Core/Src/task_handler.c:136:15: warning: unused variable 'msg_rtc2' [-Wunused-variable]
+  136 |   const char* msg_rtc2 = "Configure Time            ----> 0\n"
+      |               ^~~~~~~~
+../Core/Src/task_handler.c:132:15: warning: unused variable 'msg_rtc1' [-Wunused-variable]
+  132 |   const char* msg_rtc1 = "========================\n"
+      |               ^~~~~~~~
+At top level:
+../Core/Src/task_handler.c:254:6: warning: 'print_handler' defined but not used [-Wunused-function]
+  254 | void print_handler(void *parameters)
+      |      ^~~~~~~~~~~~~
+../Core/Src/task_handler.c:208:6: warning: 'led_handler' defined but not used [-Wunused-function]
+  208 | void led_handler(void *parameters)
+      |      ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/task_handler.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.

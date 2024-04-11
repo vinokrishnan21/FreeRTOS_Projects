@@ -1,0 +1,65 @@
+/*
+ * led_effect.c
+ *
+ *      Author: vinodhini
+ */
+#include "main.h"
+
+void stop_led_effect()
+{
+	for(int i=0; i<4; i++)
+		xTimerStop(handle_led_timer[i],portMAX_DELAY);
+
+}
+
+
+void blink_led_in_pattern(int n)
+{
+	stop_led_effect();
+	xTimerStart(handle_led_timer[n-1],portMAX_DELAY);
+
+}
+
+void turnoff_all_leds(void){
+	HAL_GPIO_WritePin(GPIOA, LED_G_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, LED_Y_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, LED_R_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOB, LED_B_Pin, GPIO_PIN_RESET);
+}
+
+void turnon_all_leds(void){
+	HAL_GPIO_WritePin(GPIOA, LED_G_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOA, LED_Y_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOA, LED_R_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOB, LED_B_Pin, GPIO_PIN_SET);
+}
+
+void turnon_odd_leds(void)
+{
+	HAL_GPIO_WritePin(GPIOA, LED_G_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOA, LED_Y_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, LED_R_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOB, LED_B_Pin, GPIO_PIN_RESET);
+}
+
+void turnon_even_leds(void)
+{
+	HAL_GPIO_WritePin(GPIOA, LED_G_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, LED_Y_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOA, LED_R_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOB, LED_B_Pin, GPIO_PIN_SET);
+}
+
+void blink_led_in_pattern1(void)
+{
+	static int flag = 0;
+	flag ^= 1;
+	flag ? turnon_all_leds() : turnoff_all_leds;
+}
+
+void blink_led_in_pattern2(void)
+{
+	static int flag = 0;
+	flag ^= 1;
+	flag ? turnon_odd_leds() : turnon_even_leds;
+}

@@ -1,0 +1,17 @@
+/*
+ * led_effect.c
+ *
+ *      Author: vinodhini
+ */
+#include "main.h"
+
+void turnoff_leds()
+{
+
+}
+
+
+void blink_led_in_pattern()
+{
+
+}

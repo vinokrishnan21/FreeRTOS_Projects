@@ -1,0 +1,11 @@
+../Core/Src/led_effect.c:8:6:stop_led_effect	24	static
+../Core/Src/led_effect.c:16:6:blink_led_in_pattern	32	static
+../Core/Src/led_effect.c:23:6:turnoff_all_leds	8	static
+../Core/Src/led_effect.c:30:6:turnon_all_leds	8	static
+../Core/Src/led_effect.c:37:6:turnon_odd_leds	8	static
+../Core/Src/led_effect.c:45:6:turnon_even_leds	8	static
+../Core/Src/led_effect.c:53:6:turnon_one_led	16	static
+../Core/Src/led_effect.c:59:6:blink_led_in_pattern1	8	static
+../Core/Src/led_effect.c:66:6:blink_led_in_pattern2	8	static
+../Core/Src/led_effect.c:72:6:blink_led_in_pattern3	40	static
+../Core/Src/led_effect.c:83:6:blink_led_in_pattern4	40	static

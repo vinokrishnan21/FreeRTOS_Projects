@@ -1,0 +1,28 @@
+/*
+ * led_effect.c
+ *
+ *      Author: vinodhini
+ */
+#include "main.h"
+
+void stop_led_effect()
+{
+	for(int i=0; i<4; i++)
+		xTimerStop(handle_led_timer[i],portMAX_DELAY);
+
+}
+
+
+void blink_led_in_pattern(int n)
+{
+	stop_led_effect();
+	xTimerStart(handle_led_timer[n-1],portMAX_DELAY);
+
+}
+
+void turn
+
+voidblink_led_in_pattern1(void)
+{
+
+}
